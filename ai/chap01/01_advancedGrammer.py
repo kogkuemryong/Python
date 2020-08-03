@@ -88,9 +88,9 @@ print(type(counter)) # Counter로 수행되어지기 때문에 collections.Count
 print(counter.most_common())
 # tuple의 자료형 list 자료형 안에서 관리 된다.
 
+print(type(counter.most_common()))
 # list -> dict 형태로 반환.
 # print(dict(counter.most_common())) -- error
-
 
 
 
