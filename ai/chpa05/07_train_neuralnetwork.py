@@ -28,7 +28,7 @@ for i in range(iters_num):
     t_batch = t_train[batch_mask]
 
     # 기울기 계산(미분)
-    # grad = network.numerical_gradient(x_batch,t_batch)
+    #grad = network.numerical_gradient(x_batch,t_batch)
     grad = network.gradient(x_batch, t_batch)
 
     # 매개변수(가중치, 편향) 갱신
